@@ -13,14 +13,12 @@ class DetailVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
-        
-//        GeoTracker.shared.getGeoDetails { (info, error) in
-//            if error == nil {
-//                if let i = info { self.setData(i) }
-//            }
-//        }
+        Geo.getGeoDetails { (info, error) in
+            if error == nil {
+                if let i = info { DispatchQueue.main.async { self.setData(i) } }
+            }
+        }
         
         // Do any additional setup after loading the view, typically from a nib.
     }
