@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5A0B490660830C6A49AFA97DF27F8A /* GeoTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B773AD01B1353497C0BC25F24FAFDF /* GeoTracker-dummy.m */; };
+		268E650DF7426DA753B495F413841079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		312E3A868A8236EB9253B667BEDDF073 /* Pods-GeoTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CF90B343F2B727899101988A5FF337 /* Pods-GeoTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1D31BA631AA5273B3D2D663D2988F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		49BD6E557B565ECEC72326C351093752 /* Pods-GeoTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A467E00682B661A4E3BC50D4BC6570C /* Pods-GeoTracker_Tests-dummy.m */; };
+		9A6F76EE169BB1CBD792BBC9A871BE40 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5A5D6178D6C7582354237EC9D8BEE /* Geo.swift */; };
+		B287A6414DD3487F81E309B0EB956DFE /* Pods-GeoTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78519D6780E412F090305181F3D3C057 /* Pods-GeoTracker_Example-dummy.m */; };
+		D8B8CF321E5BC530B3BF1251DFEBA658 /* GeoTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 614BEE8D28B457F9E48DA5F0ED6BDFE2 /* GeoTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA83F761DCADD1D791159AB61E16FAD9 /* Pods-GeoTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD927667A13E99BEA74A032AF25A3EBE /* Pods-GeoTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BBC9AFDDDA0BD6FE16B205C7910C8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		861D2EB157DC697A389336F0FA915BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1068BF855E3CFF6008B53644CFFA2FBA;
+			remoteInfo = "Pods-GeoTracker_Example";
+		};
+		DA71045F499D0FC56B799A59EC68326C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E13113AE74DFF35E6536C813121F98;
+			remoteInfo = GeoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00959FF2BB10BB564CCDBDD51DBD1A0A /* GeoTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		066D6004C670B930478F34B14A4F445B /* Pods-GeoTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		17D5A5D6178D6C7582354237EC9D8BEE /* Geo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Geo.swift; path = GeoTracker/Classes/Geo.swift; sourceTree = "<group>"; };
+		1866FAA62D295624C4FB66C82CEA20B6 /* Pods-GeoTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1C00F16C580BD564A6D15F78F8F92358 /* Pods-GeoTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoTracker_Tests.modulemap"; sourceTree = "<group>"; };
+		27708ED90A43F0AF9381FAFBDDE99BED /* Pods-GeoTracker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoTracker_Example-Info.plist"; sourceTree = "<group>"; };
+		2D8CC8FF6C65BFF9E67049041B0A87E8 /* GeoTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GeoTracker-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37F2EEB9F5289F677B361D0B4F30D58B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41CF90B343F2B727899101988A5FF337 /* Pods-GeoTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoTracker_Example-umbrella.h"; sourceTree = "<group>"; };
+		527A2DF17DDCAA844955EDCF0FA75643 /* Pods_GeoTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5757303C9F3CCECEDFBB4D0ADD4AC917 /* Pods-GeoTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		614BEE8D28B457F9E48DA5F0ED6BDFE2 /* GeoTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoTracker-umbrella.h"; sourceTree = "<group>"; };
+		78519D6780E412F090305181F3D3C057 /* Pods-GeoTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoTracker_Example-dummy.m"; sourceTree = "<group>"; };
+		7C3F52B2AB0C18C07B38CCA2B063E932 /* GeoTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoTracker.xcconfig; sourceTree = "<group>"; };
+		8342198825D1D419E81795EE586867D8 /* Pods-GeoTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		89B773AD01B1353497C0BC25F24FAFDF /* GeoTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoTracker-dummy.m"; sourceTree = "<group>"; };
+		8A467E00682B661A4E3BC50D4BC6570C /* Pods-GeoTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoTracker_Tests-dummy.m"; sourceTree = "<group>"; };
+		917EA47EF6D4F213348EF36F4D4DDF88 /* GeoTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GeoTracker.modulemap; sourceTree = "<group>"; };
+		9739B3028AF2CA11D4A2205DC717BCDE /* Pods-GeoTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoTracker_Example.modulemap"; sourceTree = "<group>"; };
+		999B9CE59D2A71FF5D272EED9122DF65 /* Pods-GeoTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A189DC787B89A09246401B681B948721 /* Pods-GeoTracker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoTracker_Tests-Info.plist"; sourceTree = "<group>"; };
+		A40C3A45BC2D46F23C560D3D22E28C54 /* Pods-GeoTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD9D1DDE07A8184372E622236629E2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B689BBB19C65D17D16C72EC80587C056 /* GeoTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GeoTracker.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		C1B2467205F4D3CF2DAC9242FDC63683 /* Pods-GeoTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DD927667A13E99BEA74A032AF25A3EBE /* Pods-GeoTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEF2725371A03D3B00583B80D6F04123 /* GeoTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoTracker-prefix.pch"; sourceTree = "<group>"; };
+		F0BD9E81FF9472968A52CC3000A267DA /* Pods_GeoTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AEA09CE82FCA07834976C9C0F632E4 /* Pods-GeoTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F787BC3D38706EA2A830A966689DEDAA /* Pods-GeoTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0733AEAF5D55648BB09CB8226479963C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1D31BA631AA5273B3D2D663D2988F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E79E50B4E921393E2A3D24A770CBF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268E650DF7426DA753B495F413841079 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5491B27B323118A447626E4A124ADC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BBC9AFDDDA0BD6FE16B205C7910C8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E0AF881694A979AD51C7046B466E3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F3F9520E42C47030F0F3C7F4F71F71 /* Pods-GeoTracker_Example */,
+				9F43FBAFA8F79723B60B255F3A4BF688 /* Pods-GeoTracker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		200243A7B212FB634D61D94C42659B97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				917EA47EF6D4F213348EF36F4D4DDF88 /* GeoTracker.modulemap */,
+				7C3F52B2AB0C18C07B38CCA2B063E932 /* GeoTracker.xcconfig */,
+				89B773AD01B1353497C0BC25F24FAFDF /* GeoTracker-dummy.m */,
+				2D8CC8FF6C65BFF9E67049041B0A87E8 /* GeoTracker-Info.plist */,
+				DEF2725371A03D3B00583B80D6F04123 /* GeoTracker-prefix.pch */,
+				614BEE8D28B457F9E48DA5F0ED6BDFE2 /* GeoTracker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GeoTracker";
+			sourceTree = "<group>";
+		};
+		61CDC3108BFF71A4D74E296E9448A558 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EECDA21DE0E20B29CB26572FF86D805A /* GeoTracker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		90C75C94CF83D7EA6C2ACB274F73392A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00959FF2BB10BB564CCDBDD51DBD1A0A /* GeoTracker.framework */,
+				527A2DF17DDCAA844955EDCF0FA75643 /* Pods_GeoTracker_Example.framework */,
+				F0BD9E81FF9472968A52CC3000A267DA /* Pods_GeoTracker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F3F9520E42C47030F0F3C7F4F71F71 /* Pods-GeoTracker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9739B3028AF2CA11D4A2205DC717BCDE /* Pods-GeoTracker_Example.modulemap */,
+				F5AEA09CE82FCA07834976C9C0F632E4 /* Pods-GeoTracker_Example-acknowledgements.markdown */,
+				066D6004C670B930478F34B14A4F445B /* Pods-GeoTracker_Example-acknowledgements.plist */,
+				78519D6780E412F090305181F3D3C057 /* Pods-GeoTracker_Example-dummy.m */,
+				1866FAA62D295624C4FB66C82CEA20B6 /* Pods-GeoTracker_Example-frameworks.sh */,
+				27708ED90A43F0AF9381FAFBDDE99BED /* Pods-GeoTracker_Example-Info.plist */,
+				41CF90B343F2B727899101988A5FF337 /* Pods-GeoTracker_Example-umbrella.h */,
+				8342198825D1D419E81795EE586867D8 /* Pods-GeoTracker_Example.debug.xcconfig */,
+				F787BC3D38706EA2A830A966689DEDAA /* Pods-GeoTracker_Example.release.xcconfig */,
+			);
+			name = "Pods-GeoTracker_Example";
+			path = "Target Support Files/Pods-GeoTracker_Example";
+			sourceTree = "<group>";
+		};
+		9F43FBAFA8F79723B60B255F3A4BF688 /* Pods-GeoTracker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C00F16C580BD564A6D15F78F8F92358 /* Pods-GeoTracker_Tests.modulemap */,
+				999B9CE59D2A71FF5D272EED9122DF65 /* Pods-GeoTracker_Tests-acknowledgements.markdown */,
+				5757303C9F3CCECEDFBB4D0ADD4AC917 /* Pods-GeoTracker_Tests-acknowledgements.plist */,
+				8A467E00682B661A4E3BC50D4BC6570C /* Pods-GeoTracker_Tests-dummy.m */,
+				A189DC787B89A09246401B681B948721 /* Pods-GeoTracker_Tests-Info.plist */,
+				DD927667A13E99BEA74A032AF25A3EBE /* Pods-GeoTracker_Tests-umbrella.h */,
+				A40C3A45BC2D46F23C560D3D22E28C54 /* Pods-GeoTracker_Tests.debug.xcconfig */,
+				C1B2467205F4D3CF2DAC9242FDC63683 /* Pods-GeoTracker_Tests.release.xcconfig */,
+			);
+			name = "Pods-GeoTracker_Tests";
+			path = "Target Support Files/Pods-GeoTracker_Tests";
+			sourceTree = "<group>";
+		};
+		B6EE985FCF69BE1B42AE42BE14B80C47 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B689BBB19C65D17D16C72EC80587C056 /* GeoTracker.podspec */,
+				ACD9D1DDE07A8184372E622236629E2D /* LICENSE */,
+				37F2EEB9F5289F677B361D0B4F30D58B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				61CDC3108BFF71A4D74E296E9448A558 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				90C75C94CF83D7EA6C2ACB274F73392A /* Products */,
+				11E0AF881694A979AD51C7046B466E3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECDA21DE0E20B29CB26572FF86D805A /* GeoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				17D5A5D6178D6C7582354237EC9D8BEE /* Geo.swift */,
+				B6EE985FCF69BE1B42AE42BE14B80C47 /* Pod */,
+				200243A7B212FB634D61D94C42659B97 /* Support Files */,
+			);
+			name = GeoTracker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DF991B85E25F342314F02E27B19B849 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B8CF321E5BC530B3BF1251DFEBA658 /* GeoTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB487E5DE59AC434294AE2A4C1578B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312E3A868A8236EB9253B667BEDDF073 /* Pods-GeoTracker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C17FD92BC480AA0F4C4C139F0EFD5F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA83F761DCADD1D791159AB61E16FAD9 /* Pods-GeoTracker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1068BF855E3CFF6008B53644CFFA2FBA /* Pods-GeoTracker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC4C936998DB490FB60F322F005D97C /* Build configuration list for PBXNativeTarget "Pods-GeoTracker_Example" */;
+			buildPhases = (
+				91FB487E5DE59AC434294AE2A4C1578B /* Headers */,
+				B889B6170B6F3ADEA646F8E6EEEF60A4 /* Sources */,
+				0733AEAF5D55648BB09CB8226479963C /* Frameworks */,
+				53FC31685AF666AC35253235B7C7A8AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDF77ED42FEE13BBD83B97F0EA60A82 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoTracker_Example";
+			productName = "Pods-GeoTracker_Example";
+			productReference = 527A2DF17DDCAA844955EDCF0FA75643 /* Pods_GeoTracker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		451A541A64F7316F767CC54C0DDAED02 /* Pods-GeoTracker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF985A7622FC5A5094B14293967F109D /* Build configuration list for PBXNativeTarget "Pods-GeoTracker_Tests" */;
+			buildPhases = (
+				9C17FD92BC480AA0F4C4C139F0EFD5F7 /* Headers */,
+				2E8FDD3453CA5BA17C3A12D7A6A2BDBC /* Sources */,
+				0E79E50B4E921393E2A3D24A770CBF3F /* Frameworks */,
+				0888273332375F152D130A2E2EE76C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D6EACF5EF84464B4A51B63D1161F11 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoTracker_Tests";
+			productName = "Pods-GeoTracker_Tests";
+			productReference = F0BD9E81FF9472968A52CC3000A267DA /* Pods_GeoTracker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4E13113AE74DFF35E6536C813121F98 /* GeoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5F55081DD5B3428E78B8B45BC8CC93 /* Build configuration list for PBXNativeTarget "GeoTracker" */;
+			buildPhases = (
+				8DF991B85E25F342314F02E27B19B849 /* Headers */,
+				264FE6775A634ED9D2741D3898AFB448 /* Sources */,
+				D5491B27B323118A447626E4A124ADC7 /* Frameworks */,
+				D13887AFEB95703BB393676A9ADB9FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTracker;
+			productName = GeoTracker;
+			productReference = 00959FF2BB10BB564CCDBDD51DBD1A0A /* GeoTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					B4E13113AE74DFF35E6536C813121F98 = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 90C75C94CF83D7EA6C2ACB274F73392A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4E13113AE74DFF35E6536C813121F98 /* GeoTracker */,
+				1068BF855E3CFF6008B53644CFFA2FBA /* Pods-GeoTracker_Example */,
+				451A541A64F7316F767CC54C0DDAED02 /* Pods-GeoTracker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0888273332375F152D130A2E2EE76C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53FC31685AF666AC35253235B7C7A8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13887AFEB95703BB393676A9ADB9FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264FE6775A634ED9D2741D3898AFB448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5A0B490660830C6A49AFA97DF27F8A /* GeoTracker-dummy.m in Sources */,
+				9A6F76EE169BB1CBD792BBC9A871BE40 /* Geo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8FDD3453CA5BA17C3A12D7A6A2BDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BD6E557B565ECEC72326C351093752 /* Pods-GeoTracker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B889B6170B6F3ADEA646F8E6EEEF60A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B287A6414DD3487F81E309B0EB956DFE /* Pods-GeoTracker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EDF77ED42FEE13BBD83B97F0EA60A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GeoTracker;
+			target = B4E13113AE74DFF35E6536C813121F98 /* GeoTracker */;
+			targetProxy = DA71045F499D0FC56B799A59EC68326C /* PBXContainerItemProxy */;
+		};
+		E6D6EACF5EF84464B4A51B63D1161F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GeoTracker_Example";
+			target = 1068BF855E3CFF6008B53644CFFA2FBA /* Pods-GeoTracker_Example */;
+			targetProxy = 861D2EB157DC697A389336F0FA915BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070EDF68FA62FF1A9418CFF852DF70F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40C3A45BC2D46F23C560D3D22E28C54 /* Pods-GeoTracker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoTracker_Tests/Pods-GeoTracker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoTracker_Tests/Pods-GeoTracker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D91712C7FA782CCDB8CCD04E7D2DBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3F52B2AB0C18C07B38CCA2B063E932 /* GeoTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GeoTracker/GeoTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoTracker/GeoTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoTracker/GeoTracker.modulemap";
+				PRODUCT_MODULE_NAME = GeoTracker;
+				PRODUCT_NAME = GeoTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58FFFA4BE8AF5111557BB0543D15BD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8342198825D1D419E81795EE586867D8 /* Pods-GeoTracker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoTracker_Example/Pods-GeoTracker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoTracker_Example/Pods-GeoTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A786B2DE3B340AF67ED4786CEAD2E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B2467205F4D3CF2DAC9242FDC63683 /* Pods-GeoTracker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoTracker_Tests/Pods-GeoTracker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoTracker_Tests/Pods-GeoTracker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8235F56141CA910B97FCBDDD5B0D45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3F52B2AB0C18C07B38CCA2B063E932 /* GeoTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GeoTracker/GeoTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoTracker/GeoTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoTracker/GeoTracker.modulemap";
+				PRODUCT_MODULE_NAME = GeoTracker;
+				PRODUCT_NAME = GeoTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6141D4A1D587ED32F5B15076E95C915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F787BC3D38706EA2A830A966689DEDAA /* Pods-GeoTracker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoTracker_Example/Pods-GeoTracker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoTracker_Example/Pods-GeoTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5F55081DD5B3428E78B8B45BC8CC93 /* Build configuration list for PBXNativeTarget "GeoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D91712C7FA782CCDB8CCD04E7D2DBA0 /* Debug */,
+				A8235F56141CA910B97FCBDDD5B0D45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF985A7622FC5A5094B14293967F109D /* Build configuration list for PBXNativeTarget "Pods-GeoTracker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070EDF68FA62FF1A9418CFF852DF70F0 /* Debug */,
+				6A786B2DE3B340AF67ED4786CEAD2E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC4C936998DB490FB60F322F005D97C /* Build configuration list for PBXNativeTarget "Pods-GeoTracker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FFFA4BE8AF5111557BB0543D15BD62 /* Debug */,
+				D6141D4A1D587ED32F5B15076E95C915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

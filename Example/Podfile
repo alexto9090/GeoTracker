@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GeoTracker_Example' do
+  pod 'GeoTracker', :path => '../'
+
+  target 'GeoTracker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

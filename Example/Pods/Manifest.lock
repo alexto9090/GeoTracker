@@ -1,0 +1,16 @@
+PODS:
+  - GeoTracker (0.1.0)
+
+DEPENDENCIES:
+  - GeoTracker (from `../`)
+
+EXTERNAL SOURCES:
+  GeoTracker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GeoTracker: 6bca0f3bca7ffe0aca2a99ed8c391a74586f5e13
+
+PODFILE CHECKSUM: 385bd14c6b55a0c6a0b706d7475979ca1174dd9b
+
+COCOAPODS: 1.7.2

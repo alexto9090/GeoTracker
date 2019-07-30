@@ -1,0 +1,6 @@
+framework module GeoTracker {
+  umbrella header "GeoTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
